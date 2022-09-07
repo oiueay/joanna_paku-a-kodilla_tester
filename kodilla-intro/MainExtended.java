@@ -15,5 +15,11 @@ public class MainExtended {
 
         boolean isLovely;
         isLovely = true;
+
+        System.out.println(catName);
+        System.out.println(firstLetterOfName);
+        System.out.println(catBirth);
+        System.out.println(catWeight);
+        System.out.println(isLovely);
     }
     }

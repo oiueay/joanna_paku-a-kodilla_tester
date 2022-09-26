@@ -22,4 +22,4 @@ public class MainExtended {
         System.out.println(catWeight);
         System.out.println(isLovely);
     }
-    }
+}

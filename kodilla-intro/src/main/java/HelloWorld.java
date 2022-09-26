@@ -5,8 +5,5 @@ public class HelloWorld {                           // [1]
         System.out.println("Joanna"); // [3]
         System.out.println(29); // [3]
         System.out.println('P'); // [3]
-
-
     }
 }
-

@@ -1,8 +1,10 @@
+package InstrukcjeWarunkowe;
+
 public class FirstClass {
     public static void main(String[] args) {
         Notebook notebook = new Notebook(600, 1100, 2018);
-        System.out.println("Notebook weight:"+ notebook.weight + " , " + "Notebook price:"
-                + notebook.price + " , " + "Notebook year:" + notebook.year);
+        System.out.println("InstrukcjeWarunkowe.Notebook weight:"+ notebook.weight + " , " + "InstrukcjeWarunkowe.Notebook price:"
+                + notebook.price + " , " + "InstrukcjeWarunkowe.Notebook year:" + notebook.year);
         notebook.checkPrice();
         notebook.checkWeight();
         notebook.checkSomething();
@@ -21,5 +23,4 @@ public class FirstClass {
         oldNotebook.checkWeight();
         oldNotebook.checkSomething();
     }
-
 }

@@ -1,14 +1,14 @@
-package com.kodilla.inheritance.homework;
+package com.kodilla.inheritance.homework.operatingSystem;
 
-public class OP2 extends OP1{
+public class OP2 extends OP1 {
 
-    public OP2(int year){
+    public OP2(int year) {
         super(year);
         System.out.println("Operating system no 3");
     }
 
     @Override
-    public void turnOn(){
+    public void turnOn() {
         System.out.println("Operating system is waiting to be turned on");
     }
 

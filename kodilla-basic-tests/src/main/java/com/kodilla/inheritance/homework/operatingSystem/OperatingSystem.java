@@ -1,4 +1,4 @@
-package com.kodilla.inheritance.homework;
+package com.kodilla.inheritance.homework.operatingSystem;
 
 public class OperatingSystem {
 
@@ -9,15 +9,15 @@ public class OperatingSystem {
         System.out.println("Operating system no 1");
     }
 
-        public void turnOn(){
-            System.out.println("Operating system is turn on");
-        }
-
-        public void turnOff(){
-            System.out.println("Operating system is not waiting to be turned off");
-        }
-
-        public int getYear(){
-        return year;
-        }
+    public void turnOn() {
+        System.out.println("Operating system is turn on");
     }
+
+    public void turnOff() {
+        System.out.println("Operating system is not waiting to be turned off");
+    }
+
+    public int getYear() {
+        return year;
+    }
+}

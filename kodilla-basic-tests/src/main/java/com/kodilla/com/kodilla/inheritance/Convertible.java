@@ -1,4 +1,4 @@
-package com.kodilla.inheritance;
+package com.kodilla.com.kodilla.inheritance;
 
     public class Convertible extends Car {
 

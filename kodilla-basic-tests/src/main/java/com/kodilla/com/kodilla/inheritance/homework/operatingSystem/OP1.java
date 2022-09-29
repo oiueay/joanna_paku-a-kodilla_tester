@@ -1,6 +1,4 @@
-package com.kodilla.inheritance.homework.operatingSystem;
-
-import com.kodilla.inheritance.homework.operatingSystem.OperatingSystem;
+package com.kodilla.com.kodilla.inheritance.homework.operatingSystem;
 
 public class OP1 extends OperatingSystem {
 

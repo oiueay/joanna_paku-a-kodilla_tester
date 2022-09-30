@@ -1,21 +1,18 @@
 package com.kodilla.com.kodilla.abstracts.homework;
 
 public class Triangle extends Shape {
-    int a = 2;
-    int h = 4;
 
-
-    public Triangle() {
-        super();
+    public Triangle(int a, int b, int h) {
+        super(a, b, h);
     }
 
     @Override
     public int getPerimeter() {
-        return a * 3;
+        return getA() * 3;
     }
 
     @Override
     public int getArea() {
-        return (a * h) / 2;
+        return (getA() * getH()) / 2;
     }
 }

@@ -3,9 +3,9 @@ package com.kodilla.com.kodilla.abstracts.homework;
 public class Application {
     public static void main(String[] args) {
 
-        Shape square = new Square();
-        Shape rectangle = new Rectangle();
-        Shape triangle = new Triangle();
+        Shape square = new Square(2, 2, 2);
+        Shape rectangle = new Rectangle(4, 5, 4);
+        Shape triangle = new Triangle(4, 4, 6);
 
 
         System.out.println("square perimeter:" + square.getPerimeter());

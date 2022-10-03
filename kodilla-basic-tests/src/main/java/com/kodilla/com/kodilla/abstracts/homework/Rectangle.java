@@ -2,18 +2,23 @@ package com.kodilla.com.kodilla.abstracts.homework;
 
 public class Rectangle extends Shape {
 
-    public Rectangle(int a, int b, int h) {
+    private int a;
+    private int b;
 
-        super(a, b, h);
+    public Rectangle(int a, int b) {
+        super();
+        this.a = a;
+        this.b = b;
     }
 
     @Override
     public int getPerimeter() {
-        return 4 * getA();
+
+        return 4 * a;
     }
 
     @Override
     public int getArea() {
-        return getA() * getB();
+        return a * b;
     }
 }

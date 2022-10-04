@@ -24,8 +24,8 @@ public class Application {
             System.out.println("Metoda subtract nie działa poprawnie dla liczb " + a + " i " + b);
         }
 
-        int somethingResult = calculator.exponentiation(a, n);
-        boolean correct3 = ResultChecker.assertEquals(25, somethingResult);
+        int exponentiationResult = calculator.exponentiation(a, n);
+        boolean correct3 = ResultChecker.assertEquals(25, exponentiationResult);
         if (correct2) {
             System.out.println("Metoda exponentiation działa poprawnie dla liczb " + a + " i " + n);
         } else {

@@ -7,6 +7,7 @@ public class Application {
         int a = 5;
         int b = 8;
         int n = 2;
+        System.out.println(Math.pow(a, n));
 
         int sumResult = calculator.sum(a, b);
         boolean correct = ResultChecker.assertEquals(13, sumResult);
@@ -26,7 +27,7 @@ public class Application {
 
         int exponentiationResult = calculator.exponentiation(a, n);
         boolean correct3 = ResultChecker.assertEquals(25, exponentiationResult);
-        if (correct2) {
+        if (correct3) {
             System.out.println("Metoda exponentiation działa poprawnie dla liczb " + a + " i " + n);
         } else {
             System.out.println("Metoda exponentiation nie działa poprawnie dla liczb " + a + " i " + n);

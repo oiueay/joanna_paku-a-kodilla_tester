@@ -1,13 +1,13 @@
-package com.kodilla.collections.interfaces.com.kodilla.collections.interfaces.homework;
+package com.kodilla.collections.interfaces.homework;
 
 public class Skoda implements Car{
 
     int speed;
     double acceleration;
 
-    public Skoda(int speed, double acceleration ){
-        this.speed = speed;
-        this.acceleration = acceleration;
+    public Skoda(){
+        this.speed = 0;
+        this.acceleration = 20;
     }
 
     @Override

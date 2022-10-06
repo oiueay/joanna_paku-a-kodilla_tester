@@ -1,18 +1,28 @@
-//package com.kodilla.collections.interfaces.com.kodilla.collections.interfaces.homework;
-//
-//public class Ford implements Car{
-//    @Override
-//    public int getSpeed() {
-//        return 0;
-//    }
-//
-//    @Override
-//    public void increaseSpeed() {
-//
-//    }
-//
-//    @Override
-//    public void decreaseSpeed() {
-//
-//    }
-//}
+package com.kodilla.collections.interfaces.homework;
+
+public class Ford implements Car{
+
+    int speed;
+    double acceleration;
+
+    public Ford(){
+        this.speed = 0;
+        this.acceleration = 30;
+    }
+
+    @Override
+    public int getSpeed() {
+        return speed;
+    }
+
+    @Override
+    public void increaseSpeed() {
+        speed += acceleration;
+    }
+
+
+    @Override
+    public void decreaseSpeed() {
+        speed -= acceleration;
+    }
+}

@@ -2,7 +2,7 @@ package Loop.UserAndRandomNumbers.RandomNumbers;
 
 import java.util.Random;
 
-public class RandomNumbers2 {
+public class RandomNumbers {
 
     private int min = 31;
     private int max = -1;
@@ -10,16 +10,16 @@ public class RandomNumbers2 {
     public int createNumbers() {
         int sum = 0;
         Random random = new Random();
-        while (sum < 5000)
-        int number = random.nextInt(31);
-        sum += number;
-        if (min > number)
-            min = number;
-        if (max > number)
-            max = number;
+        while (sum < 5000) {
+            int number = random.nextInt(31);
+            sum += number;
+            if (min > number)
+                min = number;
+            if (max > number)
+                max = number;
+        }
+        return sum;
     }
-return sum;
-}
 
     public int getMax() {
         return max;
@@ -28,3 +28,4 @@ return sum;
     public int getMin() {
         return min;
     }
+}

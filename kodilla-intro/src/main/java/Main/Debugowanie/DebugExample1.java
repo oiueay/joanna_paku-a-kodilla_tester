@@ -1,3 +1,5 @@
+package Debugowanie;
+
 class DebugExample1 {
     public static void main(String[] args) {
         int firstNumber = 23;

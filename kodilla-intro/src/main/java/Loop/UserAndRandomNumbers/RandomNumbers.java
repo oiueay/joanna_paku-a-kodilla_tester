@@ -1,3 +1,5 @@
+package UserAndRandomNumbers;
+
 public class RandomNumbers {
 
      public static int getCountOfNumber(int max) {

@@ -1,3 +1,5 @@
+package SimpleArray;
+
 public class WyswietlanieElementowTablicy {
     public static void main(String[] args) {
         String[] names = new String[] {"Zygfryd", "Gwidon", "Florentyna"};

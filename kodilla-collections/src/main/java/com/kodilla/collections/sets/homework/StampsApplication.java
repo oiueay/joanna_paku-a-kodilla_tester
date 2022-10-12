@@ -14,7 +14,6 @@ public class StampsApplication {
         stamps.add(new Stamp("Znaczek 2", "2/4"));
 
         System.out.println(stamps.size());
-        for (Stamp stamp : stamps) ;
         System.out.println(stamps);
     }
 }

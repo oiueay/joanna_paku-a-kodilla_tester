@@ -1,4 +1,4 @@
-package com.kodilla.com.kodilla.school;
+package com.kodilla.school;
 
 public class Grades {
     private int[] values;

@@ -1,4 +1,4 @@
-package com.kodilla.com.kodilla.school;
+package com.kodilla.school;
 
 public class Student {
     private String name;
@@ -54,9 +54,7 @@ public class Student {
         return this.history.getAverage();
     }
 
-    public double getAverage() {
-        return -1;
-    }
+
     public double getAverage() {
         double sum = this.geography.getAverage() + this.history.getAverage() + this.maths.getAverage() + this.physics.getAverage();
         return sum/4;

@@ -1,4 +1,4 @@
-package SimpleArray;
+package Array;
 
 public class SimpleArray {
     public static void main(String[] args) {

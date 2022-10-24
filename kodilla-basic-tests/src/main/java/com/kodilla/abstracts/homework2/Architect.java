@@ -1,4 +1,4 @@
-package com.kodilla.com.kodilla.abstracts.homework2;
+package com.kodilla.abstracts.homework2;
 
 public class Architect extends Job {
 

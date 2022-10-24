@@ -1,4 +1,4 @@
-package com.kodilla.com.kodilla.abstracts;
+package com.kodilla.abstracts;
 
 public class Duck extends Animal {
 

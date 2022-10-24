@@ -1,4 +1,4 @@
-package com.kodilla.stream.homework;
+package com.kodilla.optional.homework;
 
 public class Teacher {
 
@@ -11,5 +11,12 @@ public class Teacher {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

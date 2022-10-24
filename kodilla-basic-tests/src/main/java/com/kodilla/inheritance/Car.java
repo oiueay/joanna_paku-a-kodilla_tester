@@ -1,4 +1,4 @@
-package com.kodilla.com.kodilla.inheritance;
+package com.kodilla.inheritance;
 
 
 public class Car {

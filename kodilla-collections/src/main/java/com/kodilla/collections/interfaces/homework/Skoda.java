@@ -18,6 +18,7 @@ public class Skoda implements Car{
     @Override
     public void increaseSpeed() {
          speed += acceleration;
+        System.out.println(speed + acceleration);
     }
 
 

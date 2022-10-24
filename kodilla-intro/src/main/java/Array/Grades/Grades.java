@@ -1,4 +1,4 @@
-package Grades;
+package Array.Grades;
 
 public class Grades {
     private int[] grades;

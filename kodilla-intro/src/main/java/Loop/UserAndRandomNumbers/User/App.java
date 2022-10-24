@@ -1,4 +1,4 @@
-package Loop.UserAndRandomNumbers;
+package Loop.UserAndRandomNumbers.User;
 
 import java.util.Random;
 

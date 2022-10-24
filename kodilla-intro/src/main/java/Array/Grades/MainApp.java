@@ -1,4 +1,4 @@
-package Grades;
+package Array.Grades;
 
 public class MainApp {
     public static void main(String[] args) {

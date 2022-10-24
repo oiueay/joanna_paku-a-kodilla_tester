@@ -1,4 +1,4 @@
-package InstrukcjeWarunkowe;
+package Array.NotebookFirstClass;
 
 public class Notebook {
     int weight;

@@ -1,4 +1,4 @@
-package com.kodilla.stream.homework;
+package com.kodilla.optional.homework;
 
 import java.util.*;
 
@@ -6,21 +6,14 @@ public class Application {
 
     public static void main(String[] args) {
 
-        List<Student> student = new ArrayList<>();
-        Student student1 = new Student("Brian Kowalski", Optional.ofNullable(new Teacher("Jan Nowak")));
+        Map<Student, Teacher> school = new HashMap<>();
+        Student student1 = new Student("Brian Kowalski", new Teacher("Krystyna Kowalska"));
         Student student2 = new Student("Jessica Nowak", null);
-        student.add(student1);
-        student.add(student2);
 
 
-
-     //   Optional<Map<Student, Teacher>> optionalUser = Optional.ofNullable(school);
+        for (Map.Entry<Student, Teacher> studentEntry : school.entrySet()) {
+            System.out.println("uczeń: " + studentEntry.getKey().getName() + ", nauczyciel: "
+        + studentEntry.getValue().getName());}
 
     }
-
-
 }
-/// Przyporządkowanie jest poprzez wpisanie uczniowi nauczyciela - przez konstruktor właśnie
-//potrzebujesz listę uczniów
-//niektórzy będą mieli wpisanego nauczyciela, a niektórym ustaw
-//null

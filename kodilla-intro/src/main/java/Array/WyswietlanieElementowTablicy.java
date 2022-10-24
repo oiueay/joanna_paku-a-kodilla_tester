@@ -1,4 +1,4 @@
-package SimpleArray;
+package Array;
 
 public class WyswietlanieElementowTablicy {
     public static void main(String[] args) {

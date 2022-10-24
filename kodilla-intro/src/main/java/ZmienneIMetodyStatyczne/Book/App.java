@@ -1,4 +1,4 @@
-package Book;
+package ZmienneIMetodyStatyczne.Book;
 
 public class App {
     public static void main(String[] args) {

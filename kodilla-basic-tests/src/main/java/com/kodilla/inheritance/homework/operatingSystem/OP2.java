@@ -1,4 +1,4 @@
-package com.kodilla.com.kodilla.inheritance.homework.operatingSystem;
+package com.kodilla.inheritance.homework.operatingSystem;
 
 public class OP2 extends OP1 {
 

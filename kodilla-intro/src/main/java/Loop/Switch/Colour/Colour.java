@@ -1,4 +1,4 @@
-package Colour;
+package Loop.Switch.Colour;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Debugowanie;
+package Main.Debugowanie;
 
 public class DebugExample2 {
     public static void main(String[] args) {

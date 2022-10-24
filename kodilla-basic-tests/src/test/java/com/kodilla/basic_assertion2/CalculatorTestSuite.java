@@ -1,6 +1,5 @@
 package com.kodilla.basic_assertion2;
 
-import com.kodilla.com.kodilla.basic_assertion2.Calculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

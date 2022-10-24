@@ -1,4 +1,4 @@
-package com.kodilla.school;
+package com.kodilla.basic_assertion.school;
 
 public class Grades {
     private int[] values;

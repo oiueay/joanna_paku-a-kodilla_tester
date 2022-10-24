@@ -1,3 +1,5 @@
+package Main;
+
 public class Main {
     public static void main(String[] args) {
         String myName = "Maciej";
@@ -7,9 +9,5 @@ public class Main {
         boolean isGoodProgrammer = true;
 
         System.out.println(myName);
-
-//        String example = sayHello();
-//        System.out.println(example);
-//    }
     }
 }

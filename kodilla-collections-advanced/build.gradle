@@ -2,10 +2,11 @@ plugins {
     id 'java'
 }
 
-group 'com.kodilla'
-version '1.0-SNAPSHOT'
+version 'unspecified'
 
-test {
+sourceCompatibility = 1.9
+
+test{
     useJUnitPlatform()
 }
 
@@ -21,3 +22,4 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+targetCompatibility = JavaVersion.VERSION_1_9

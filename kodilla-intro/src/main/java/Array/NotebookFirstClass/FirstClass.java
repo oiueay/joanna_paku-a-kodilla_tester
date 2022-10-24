@@ -1,4 +1,4 @@
-package InstrukcjeWarunkowe;
+package Array.NotebookFirstClass;
 
 public class FirstClass {
     public static void main(String[] args) {

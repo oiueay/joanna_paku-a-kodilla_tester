@@ -1,6 +1,4 @@
-package com.kodilla.com.kodilla.abstracts.homework2;
-
-import com.kodilla.com.kodilla.abstracts.Animal;
+package com.kodilla.abstracts.homework2;
 
 public class Person {
 

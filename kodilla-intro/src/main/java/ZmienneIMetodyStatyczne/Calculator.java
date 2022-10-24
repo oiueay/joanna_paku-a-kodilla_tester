@@ -1,3 +1,5 @@
+package ZmienneIMetodyStatyczne;
+
 public class Calculator {
     static double PI = 3.1415927;
 

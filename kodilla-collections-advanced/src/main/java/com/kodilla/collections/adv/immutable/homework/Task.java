@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Task {
 
-    String title;
-    int duration;
+     private final String title;
+     private final int duration;
 
     public Task(String title, int duration) {
         this.title = title;
@@ -31,5 +31,13 @@ public class Task {
     @Override
     public int hashCode() {
         return Objects.hash(title, duration);
+    }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "title='" + title + '\'' +
+                ", duration=" + duration +
+                '}';
     }
 }

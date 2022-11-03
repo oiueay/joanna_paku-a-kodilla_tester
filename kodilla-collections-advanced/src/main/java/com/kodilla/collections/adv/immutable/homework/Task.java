@@ -2,7 +2,7 @@ package com.kodilla.collections.adv.immutable.homework;
 
 import java.util.Objects;
 
-public class Task {
+final public class Task {
 
      private final String title;
      private final int duration;

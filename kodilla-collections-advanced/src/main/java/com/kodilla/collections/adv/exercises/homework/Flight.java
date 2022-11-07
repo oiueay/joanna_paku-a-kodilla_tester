@@ -12,7 +12,6 @@ public class Flight {
         this.arrival = arrival;
     }
 
-
     public String getDeparture() {
         return departure;
     }
@@ -32,5 +31,13 @@ public class Flight {
     @Override
     public int hashCode() {
         return Objects.hash(departure, arrival);
+    }
+
+    @Override
+    public String toString() {
+        return "Flight{" +
+                "departure='" + departure + '\'' +
+                ", arrival='" + arrival + '\'' +
+                '}';
     }
 }

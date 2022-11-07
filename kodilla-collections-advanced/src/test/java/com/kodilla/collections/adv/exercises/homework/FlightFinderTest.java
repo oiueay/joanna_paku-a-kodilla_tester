@@ -15,7 +15,7 @@ public class FlightFinderTest {
 
         FlightFinder flightFinder = new FlightFinder();
 
-        String result = flightFinder.findFlightsFrom("KTW").toString();
+        List<Flight> result = flightFinder.findFlightsFrom("KTW");
 
         assertEquals(expected, result);
     }

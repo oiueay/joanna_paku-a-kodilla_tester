@@ -1,9 +1,6 @@
 package com.kodilla.collections.adv.exercises.homework;
-
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -11,7 +8,8 @@ public class FlightFinderTest {
     @Test
     void findFlightsFrom() {
 
-        List<String> expected = List.of("KTW");
+
+        List<Flight> expected = List.of(new Flight("KTW", "MIA"));
 
         FlightFinder flightFinder = new FlightFinder();
 

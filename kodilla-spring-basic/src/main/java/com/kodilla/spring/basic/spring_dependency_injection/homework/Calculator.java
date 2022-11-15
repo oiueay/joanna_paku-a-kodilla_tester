@@ -11,22 +11,23 @@ public class Calculator {
         this.display = display;
     }
 
-//tutaj: "każda metoda powinna przed zwróceniem wyniku wywołać metodę display(double value) obiektu display"
-
-
-    private double add(double a, double b) {
+    public double add(double a, double b) {
+        display.display(a + b);
         return a + b;
     }
 
-    private double subtract(double a, double b) {
+    public double subtract(double a, double b) {
+        display.display(a - b);
         return a - b;
     }
 
-    private double multiply(double a, double b) {
+    public double multiply(double a, double b) {
+        display.display(a * b);
         return a * b;
     }
 
-    private double divide(double a, double b) {
+    public double divide(double a, double b) {
+        display.display(a / b);
         return a / b;
     }
 }

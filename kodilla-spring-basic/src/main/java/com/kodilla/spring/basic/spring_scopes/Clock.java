@@ -12,7 +12,7 @@ public class Clock {
 
     private LocalTime time;
 
-    Clock(LocalTime time) {
+    public Clock(LocalTime time) {
         this.time = time;
     }
 

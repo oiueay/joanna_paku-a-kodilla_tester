@@ -5,17 +5,17 @@ import java.util.stream.Stream;
 public class PersonSources {
     static Stream<Arguments> provideBMI() {
         return Stream.of(
-                Arguments.of(  170, 43,"Very severely underweight"),
-                Arguments.of(  170, 44,"Severely underweight"),
-                Arguments.of(  170, 53,"Underweight"),
-                Arguments.of(  170, 70,"Normal (healthy weight)"),
-                Arguments.of(  170, 85,"Overweight"),
-                Arguments.of(  170, 100,"Obese Class I (Moderately obese)"),
-                Arguments.of(  170, 115,"Obese Class II (Severely obese)"),
-                Arguments.of(  170, 130,"Obese Class III (Very severely obese)"),
-                Arguments.of(  170, 140,"Obese Class IV (Morbidly Obese)"),
-                Arguments.of(  170, 165,"Obese Class V (Super Obese)"),
-                Arguments.of(  170, 180,"Obese Class VI (Hyper Obese)")
+                Arguments.of(  1.7, 43,"Very severely underweight"),
+                Arguments.of(  1.7, 44,"Severely underweight"),
+                Arguments.of(  1.7, 53,"Underweight"),
+                Arguments.of(  1.7, 70,"Normal (healthy weight)"),
+                Arguments.of(  1.7, 85,"Overweight"),
+                Arguments.of(  1.7, 100,"Obese Class I (Moderately obese)"),
+                Arguments.of(  1.7, 115,"Obese Class II (Severely obese)"),
+                Arguments.of(  1.7, 130,"Obese Class III (Very severely obese)"),
+                Arguments.of(  1.7, 140,"Obese Class IV (Morbidly Obese)"),
+                Arguments.of(  1.7, 165,"Obese Class V (Super Obese)"),
+                Arguments.of(  1.7, 180,"Obese Class VI (Hyper Obese)")
         );
     }
 }

@@ -5,7 +5,8 @@ import com.kodilla.rest.service.BookService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.times;
+
 
 class BookControllerTest {
 
@@ -15,13 +16,11 @@ class BookControllerTest {
         BookService bookServiceMock = Mockito.mock(BookService.class);
         BookController bookController = new BookController(bookServiceMock);
 
-        BookDto book = new BookDto("Lord of the Rings", "J.R.R. Tolkien");
+        BookDto bookDto = new BookDto("Lord of the Rings", "J.R.R. Tolkien");
 
-        Mockito.when(bookServiceMock.addBook().thenReturn(book));
+        bookController.addBook(bookDto);
 
-        bookController.addBook(book);
-        verify(bookController).addBook(book);
-
+        Mockito.verify(bookServiceMock, times(1)).addBook(bookDto);
     }
 }
 

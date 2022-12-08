@@ -1,2 +1,4 @@
-package com.kodilla.mockito.homework;public interface Location {
+package com.kodilla.mockito.homework;
+
+public interface Location {
 }

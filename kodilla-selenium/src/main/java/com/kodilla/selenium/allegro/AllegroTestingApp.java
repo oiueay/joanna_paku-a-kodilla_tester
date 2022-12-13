@@ -21,7 +21,7 @@ public class AllegroTestingApp {
         Alert alert = driver.switchTo().alert();
         alert.dismiss();
 
-        WebElement element = driver.findElement(By.xpath("//*[contains(@class,\"mp7g_oh mr3m_1 s4kyg\")]/select/optgroup/option[3]"));
+        WebElement element = driver.findElement(By.xpath("//*[contains(@class,\"mp7g_oh mr3m_1 s4kyg\")]/select/optgroup[1]/option[3]"));
         Select elementSelect = new Select(element);
         elementSelect.selectByIndex(3);
 

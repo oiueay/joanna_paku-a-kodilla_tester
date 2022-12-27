@@ -9,11 +9,7 @@ public class Year {
     public boolean isLeap() {
         if (this.year % 4 == 0) {
             if (this.year % 100 == 0) {
-                if (this.year % 400 == 0) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return this.year % 400 == 0;
             } else {
                 return true;
             }

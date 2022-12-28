@@ -37,6 +37,5 @@ public class CarFactory {
         } else {
             return "Autumn";
         }
-
     }
 }

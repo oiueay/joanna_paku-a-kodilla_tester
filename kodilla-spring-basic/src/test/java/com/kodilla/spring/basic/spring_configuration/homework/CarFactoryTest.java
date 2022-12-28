@@ -1,5 +1,6 @@
 package com.kodilla.spring.basic.spring_configuration.homework;
 
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -15,14 +16,20 @@ class CarFactoryTest {
     @Autowired
     private Car car;
 
-    void shouldCreateCar(){
-        boolean isNight = CarFactory.isNight(LocalTime.now());
+    @Test
+    void shouldCreateCar() {
         String season = CarFactory.getSeason(LocalDate.now());
-        if(season.equals("Winter"))
+        if (season.equals("Winter"))
             assertTrue(car instanceof SUV);
         else if (season.equals("Spring"))
             assertTrue(car instanceof Sedan);
         else if (season.equals("Summer"))
             assertTrue(car instanceof Cabrio);
+    }
+
+    @Test
+    public void shouldReturnTrueWhenTimeIsBetween20And6() {
+        boolean isNight = CarFactory.isNight(LocalTime.now());
+        assertEquals(isNight, car.hasHeadlightsTurnedOn());
     }
 }

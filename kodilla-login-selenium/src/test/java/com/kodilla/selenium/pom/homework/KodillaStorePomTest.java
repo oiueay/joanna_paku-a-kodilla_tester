@@ -20,19 +20,28 @@ class KodillaStorePomTest {
     @Test
     public void testStorePage_CheckPositiveValidation() throws InterruptedException {
         int searchIn = storePom.enterSth("Notebook", 2);
-        int searchIn2 = storePom.enterSth("School", 1);
-        int searchIn3 = storePom.enterSth("Brand", 1);
-        int searchIn4 = storePom.enterSth("Business", 0);
-        int searchIn5 = storePom.enterSth("Gaming", 1);
-        int searchIn6 = storePom.enterSth("Powerful", 0);
+        int searchIn2 = storePom.enterSth("NotEbooK", 2);
+        int searchIn3 = storePom.enterSth("SchOOl", 1);
+        int searchIn4 = storePom.enterSth("School", 1);
+        int searchIn5 = storePom.enterSth("Brand", 1);
+        int searchIn6 = storePom.enterSth("BRAND", 1);
+        int searchIn7 = storePom.enterSth("Business", 0);
+        int searchIn8 = storePom.enterSth("BusIneSS", 0);
+        int searchIn9 = storePom.enterSth("Gaming", 1);
+        int searchIn10 = storePom.enterSth("GAmiNg", 1);
+        int searchIn11 = storePom.enterSth("Powerful", 0);
+        int searchIn12 = storePom.enterSth("POWerfUl", 0);
         assertEquals(2, searchIn);
-        assertEquals(1, searchIn2);
+        assertEquals(2, searchIn2);
         assertEquals(1, searchIn3);
-        assertEquals(0, searchIn4);
+        assertEquals(1, searchIn4);
         assertEquals(1, searchIn5);
-        assertEquals(0, searchIn6);
+        assertEquals(1, searchIn6);
+        assertEquals(0, searchIn7);
+        assertEquals(0, searchIn8);
+        assertEquals(1, searchIn9);
+        assertEquals(1, searchIn10);
+        assertEquals(0, searchIn11);
+        assertEquals(0, searchIn12);
     }
 }
-
-////Następnie rozbuduj testy o weryfikację, czy wyszukiwarka ignoruje wielkość znaków przy wyszukiwaniu
-//// (ilość wyników powinna być taka sama niezależnie od wielkości znaków).

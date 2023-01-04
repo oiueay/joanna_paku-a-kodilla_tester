@@ -37,6 +37,6 @@ public class KodillaStorePom {
 }
 
 
-// zbudować selektor css dla div zawierającego listę innych divów-> stackoverflow
+
 
 

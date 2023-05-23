@@ -1,6 +1,6 @@
 package com.kodilla.spring.basic.dependency_injection;
 
-public class SimpleApplication {g
+public class SimpleApplication {
     private MessageService messageService;
 
     public SimpleApplication(MessageService messageService) {

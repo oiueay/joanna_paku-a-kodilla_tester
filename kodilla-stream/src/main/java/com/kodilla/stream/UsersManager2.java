@@ -14,9 +14,9 @@ public class UsersManager2 {
     public static List<String> filterChemistGroupUsernames() {
         List<String> usernames = UsersRepository.getUserList()
                 .stream()
-                .filter(user -> user.getGroup().equals("Chemists")) ////przefiltrowuje listę wybierając tylko chemików
-                .map(UsersManager::getUserName) //transformacja (referencja)
-                .collect(Collectors.toList());  // kolektor (Collectors.toList() utworzy z elementów przepływających przez strumień listę, którą można przypisać do jakiejś zmiennej, co w powyższym przykładzie dzieje się w linii [1].
+                .filter(user -> user.getGroup().equals("Chemists"))
+                .map(UsersManager::getUserName)
+                .collect(Collectors.toList());
 
         return usernames;
     }

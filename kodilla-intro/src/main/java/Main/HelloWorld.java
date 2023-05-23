@@ -1,11 +1,11 @@
 package Main;
 
-public class HelloWorld {                           // [1]
+public class HelloWorld {
     public static void main(String[] args) {
-        // [2]
-        System.out.println("Hello World!"); // [3]
-        System.out.println("Joanna"); // [3]
-        System.out.println(29); // [3]
-        System.out.println('P'); // [3]
+
+        System.out.println("Hello World!");
+        System.out.println("Joanna");
+        System.out.println(29);
+        System.out.println('P');
     }
 }

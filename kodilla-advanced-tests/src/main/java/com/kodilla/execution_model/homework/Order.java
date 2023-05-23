@@ -4,18 +4,18 @@ import java.util.Date;
 
 public class Order {
 
-    private double orderValue;
+    private double orderTotal;
     private Date date;
     private String login;
 
     public Order(double orderValue, Date date, String login) {
-        this.orderValue = orderValue;
+        this.orderTotal = orderValue;
         this.date = date;
         this.login = login;
     }
 
-    public double getOrderValue() {
-        return orderValue;
+    public double getOrderTotal() {
+        return orderTotal;
     }
 
     public Date getDate() {
@@ -29,10 +29,9 @@ public class Order {
     @Override
     public String toString() {
         return "Order{" +
-                "orderValue=" + orderValue +
+                "orderValue=" + orderTotal +
                 ", date=" + date +
                 ", login='" + login + '\'' +
                 '}';
     }
 }
-//która będzie przechowywać dane zamówienia: wartość zamówienia, datę oraz login osoby dokonującej zamówienia.

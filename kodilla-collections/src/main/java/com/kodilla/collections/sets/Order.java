@@ -35,7 +35,7 @@ public class Order {
             return false;
         Order order = (Order) o;
         return Double.compare(order.quantity, quantity) == 0
-//                && Double.compare(order.orderNumber, orderNumber) == 0
+                && this.orderNumber.equals(order.orderNumber)
                 && this.productName.equals(order.productName);
     }
 
@@ -51,4 +51,5 @@ public class Order {
                 ", quantity=" + quantity +
                 '}';
     }
+
 }

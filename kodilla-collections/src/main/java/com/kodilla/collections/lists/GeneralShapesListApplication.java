@@ -14,12 +14,12 @@ public class GeneralShapesListApplication {
         shapes.add(new Circle(7.0));
         shapes.add(new Triangle(10.0, 4.0, 10.77));
 
-        shapes.remove(1);                       // Usuwanie przy pomocy indeksu
-        shapes.remove(square);                        // Usuwanie przy pomocy obiektu, gdy mamy dany obiekt
+        shapes.remove(1);
+        shapes.remove(square);
 
         Triangle triangle = new Triangle(10.0, 4.0, 10.77);
-        shapes.remove(triangle);   //Usuwanie przy pomocy obiektu, gdy mamy TAKI SAM obiekt (który wcześniej trzeba było utworzyć.
-        // W tym przypadku utworzyliśmy również w klasie Triangle- generate...equals()and hasCode())
+        shapes.remove(triangle);
+
 
         System.out.println(shapes.size());
         for (Shape shape : shapes) {

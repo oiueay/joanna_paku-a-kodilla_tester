@@ -17,8 +17,3 @@ public class UsersManager {
     }
 }
 
-
-//     w klasie UsersManager stwórz metodę statyczną wykorzystującą Stream,
-//        która będzie zwracała kolekcję elementów typu User. Metoda ma przyjmować argument typu int
-//        i zwrócić użytkowników starszych od podanej liczby w argumencie metody. Napisz testy sprawdzające czy wszystkie
-//        zwrócone elementy posiadają wiek większy od podanej wartości.
